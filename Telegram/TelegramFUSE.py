@@ -1,5 +1,5 @@
 import logging
-logging.basicConfig(filename='example.log', encoding='utf-8', level=logging.DEBUG)
+logging.basicConfig(filename='example.log', level=logging.DEBUG)
 from telethon import TelegramClient, events, sync, utils
 from dotenv import load_dotenv
 import os
